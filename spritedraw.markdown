@@ -1,0 +1,4 @@
+---
+layout: sprite
+permalink: /spritedraw/
+---
