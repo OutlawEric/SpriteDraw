@@ -87,21 +87,21 @@
     height: 24px;
     margin: 6px 0;
     background-color: transparent;
-    background-image: url("https://ericbeaudu.github.io/site/img/unlock.svg");
+    background-image: url("https://www.beaudu.com/img/unlock.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .contain:hover input ~ .checkmark {
     background-color: transparent;
-    background-image: url("https://ericbeaudu.github.io/site/img/unlock.svg");
+    background-image: url("https://www.beaudu.com/img/unlock.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .contain input:checked ~ .checkmark {
     background-color: transparent;
-    background-image: url("https://ericbeaudu.github.io/site/img/lock.svg");
+    background-image: url("https://www.beaudu.com/img/lock.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
