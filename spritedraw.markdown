@@ -1,4 +1,4 @@
 ---
 layout: sprite
-permalink: site/spritedraw/
+permalink: spritedraw
 ---
