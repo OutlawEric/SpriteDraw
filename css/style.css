@@ -45,8 +45,8 @@
     font-size: 17pt;
     text-transform: uppercase;
     color: #fff;
-    padding: 22px 1rem .25rem;
-    height: 100%;
+    padding: 25px 1rem .25rem;
+    height: 70px;
     border: none;
     border-radius: 0;
   }
@@ -137,7 +137,7 @@
       position: relative;
   }
   .tooltip.tooltip-bottom::after{background: rgba(24,20,37,0.7);font-size: 0.7rem;}
-  .sml{width:30px;height:30px;}
+  .sml{width:25px;height:25px;}
   .btn.btn-lg.cont{background:rgb(58,68,102);color:#fff;box-shadow: 0 2px #252A43;}
   .btn.btn-lg.mail{padding:14px;height: 100%;text-transform: uppercase;font-weight:700;font-size:12pt;}
   .btn.btn-lg.mail:hover{background:#E81C4F;box-shadow: 0 2px #940D41;}
