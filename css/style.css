@@ -18,6 +18,13 @@
   .blkltr{color:rgb(24,20,37);}
   .column{padding: .4rem;}
   .columns{width: 100%;margin-left:0;margin-right:0;}
+  .tc{
+    text-align: center;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 15pt;
+    text-transform: uppercase;
+    padding-top: 25px;
+  }
   .bg-dark{background-color: rgb(24,20,37)!important;}
   .herofull{height: 450px;}
   .heromobile{height: 30%;}
