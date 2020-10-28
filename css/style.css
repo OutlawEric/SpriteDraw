@@ -60,7 +60,7 @@
   .modal-container .modal-body{padding:0;}
   .modal-body{scrollbar-color: rgb(253,2,76) rgb(24,20,37); scrollbar-width: thin;}
   .modal-body img{padding: 0.4rem; margin: 0 auto;}
-  .modal-body::-webkit-scrollbar {width:5px;}
+  .modal-body::-webkit-scrollbar {width:5px;]
   .modal-body::-webkit-scrollbar-track {background:rgb(24,20,37);}
   .modal-body::-webkit-scrollbar-thumb {background:rgb(253,2,76);}
   .modal-body .img-responsive {
