@@ -28,6 +28,8 @@
   .bg-dark{background-color: rgb(24,20,37)!important;}
   .herofull{height: 450px;}
   .heromobile{height: 30%;}
+  .l500{width:500px}
+  .l300{width:300px}
   .hero-body{height:100%;}
   .logo{position:absolute;}
   .navbar{height:70px;}
