@@ -3,10 +3,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
   body{font-family: 'Roboto Mono'; color:#fff;}
+  h1{font-family: 'East Sea Dokdo', cursive;margin-bottom: 10px;font-size: 2.5rem;}
   h2{font-family: 'East Sea Dokdo', cursive;}
   a, a:visited{color:#E81C4F;}
   a:hover{color:#E81C4F;text-decoration:underline;}
   p {margin: 0;}
+  .bioimg{display:block;height:150px;width:150px;margin:0 auto;}
   .py-3{
     padding-top: 50px;
     padding-bottom: 30px;
@@ -110,9 +112,3 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  h1{font-family: 'East Sea Dokdo', cursive;margin-bottom: 10px;font-size: 2.5rem;}
-<<<<<<< HEAD
-  .bioimg{display:block;height:150px;width:150px;margin:0 auto;}
-=======
-  .bioimg{display:block;height:150px;width:150px;margin:0 auto;}
->>>>>>> 646c8c6... initial commit
