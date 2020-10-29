@@ -4,14 +4,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none' https://beaudu.com https://fonts.googleapis.com https://fonts.gstatic.com; img-src data: https://*; media-src https://sketchfab.com; child-src 'self' https://sketchfab.com https://fonts.googleapis.com  https://fonts.gstatic.com; script-src 'none'; object-src 'none'; form-action 'self'; base-uri 'self'">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'none' https://beaudu.com https://fonts.googleapis.com https://fonts.gstatic.com; img-src data: https://*; media-src https://sketchfab.com; child-src 'self' https://sketchfab.com https://fonts.googleapis.com  https://fonts.gstatic.com; script-src 'none'; object-src 'none'; form-action 'self'; base-uri 'self'">-->
     <link rel="shortcut icon" href="https://beaudu.com/img/favicon.png">
     <title>ᴇʀɪᴄʙᴇᴀᴜᴅᴜ</title>
-    <link href="https://beaudu.com/css/normalize.css" rel="stylesheet" >
-    <link href="https://beaudu.com/css/spectre.min.css" rel="stylesheet" >
-    <link href="https://beaudu.com/css/spectre-exp.min.css" rel="stylesheet" >
-    <link href="https://beaudu.com/css/spectre-icons.min.css" rel="stylesheet" >
-    <link href="https://beaudu.com/css/style.css" rel="stylesheet" >
+    <link href="https://beaudu.com/css/normalize.css" rel="stylesheet">
+    <link href="https://beaudu.com/css/spectre.min.css" rel="stylesheet">
+    <link href="https://beaudu.com/css/spectre-exp.min.css" rel="stylesheet">
+    <link href="https://beaudu.com/css/spectre-icons.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|East+Sea+Dokdo|Press+Start+2P" rel="stylesheet">
   </head>
   
@@ -52,14 +52,73 @@
     </div>
     <div class="col-12 col-mx-auto">
       <div class="container grid-md py-4">
-        <div class="columns col-12">
-          <div class="column col-12"><a href="mailto:eric@beaudu.com" class="btn btn-lg bss column col-12 cont mail"><span class="blkltr">[</span>eric@beaudu.com<span class="blkltr">]</span></a></div>
-          <div class="column col-2 col-sm-6"><a href="https://twitter.com/ericbeaudu" class="btn btn-lg bss column col-12 cont twtt"><img class="sml" src="https://beaudu.com/img/twitter.svg" alt="twitter"></a></div>
-          <div class="column col-2 col-sm-6"><a href="https://www.twitch.tv/outlaweric" class="btn btn-lg bss column col-12 cont twtc"><img class="sml" src="https://beaudu.com/img/twitch.svg" alt="twitch"></a></div>
-          <div class="column col-2 col-sm-6"><a href="https://www.instagram.com/eric.beaudu/" class="btn btn-lg bss column col-12 cont inst"><img class="sml" src="https://beaudu.com/img/instagram.svg" alt="instagram"></a></div>
-          <div class="column col-2 col-sm-6"><a href="https://www.artstation.com/ericbeaudu" class="btn btn-lg bss column col-12 cont arts"><img class="sml" src="https://beaudu.com/img/artstation.svg" alt="artstation"></a></div>
-          <div class="column col-2 col-sm-6"><a href="https://outlaweric.newgrounds.com/" class="btn btn-lg bss column col-12 cont twtc"><img class="sml" src="https://beaudu.com/img/ng.svg" alt="newgrounds"></a></div>
-          <div class="column col-2 col-sm-6"><a href="https://beaudu.com/spritedraw" class="btn btn-lg bss column col-12 cont twtc"><img class="sml" src="https://beaudu.com/img/invader.svg" alt="newgrounds"></a></div>
+        <div class="columns col-gapless">
+          <div class="column col-6">
+            <div class="columns">
+              <div class="column col-12">
+                <a href="mailto:eric@beaudu.com" class="btn btn-lg bss column col-12 cont mail">
+                  <div class="columns">
+                    <div class="column col-2"><img class="sml" src="../img/email.svg" alt="email"></div>
+                    <div class="column col-5"><p class="tl">eric@beaudu.com</p></div>
+                  </div>
+                </a>
+              </div>
+              <div class="column col-12">
+                <a href="https://beaudu.com/spritedraw" class="btn btn-lg bss column col-12 cont twtc">
+                  <div class="columns">
+                    <div class="column col-2"><img class="sml" src="https://beaudu.com/img/invader.svg" alt="spritedraw"></div>
+                    <div class="column col-5"><p class="tl">SpriteDraw</p></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="column col-6">
+            <div class="columns">
+              <div class="column col-4">
+                <a href="https://twitter.com/ericbeaudu" class="btn btn-lg bss column col-12 cont twtt">
+                  <div class="columns">
+                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/twitter.svg" alt="twitter"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="column col-4">
+                <a href="https://www.instagram.com/eric.beaudu/" class="btn btn-lg bss column col-12 cont inst">
+                  <div class="columns">
+                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/instagram.svg" alt="instagram"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="column col-4">
+                <a href="https://www.twitch.tv/outlaweric" class="btn btn-lg bss column col-12 cont twtc">
+                  <div class="columns">
+                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/twitch.svg" alt="twitch"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="column col-4">
+                <a href="https://www.artstation.com/ericbeaudu" class="btn btn-lg bss column col-12 cont arts">
+                  <div class="columns">
+                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/artstation.svg" alt="artstation"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="column col-4">
+                <a href="https://outlaweric.newgrounds.com/" class="btn btn-lg bss column col-12 cont newg">
+                  <div class="columns">
+                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/ng.svg" alt="newgrounds"></div>
+                  </div>
+                </a>
+              </div>
+              <div class="column col-4">
+                <a href="https://ko-fi.com/ericbeaudu" class="btn btn-lg bss column col-12 cont newg">
+                  <div class="columns">
+                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/kofi.svg" alt="kofi"></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="columns">
