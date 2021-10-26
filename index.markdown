@@ -1,3 +1,3 @@
 ---
-layout: sprite
+layout: home
 ---

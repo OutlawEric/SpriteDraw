@@ -1,139 +1,40 @@
 <!DOCTYPE html>
-<!--Copyright 2015-2020 Eric Beaudu. All Rights Reserved.-->
-<html lang="en">
+<!--Copyright 2010-2021 Eric Beaudu. All Rights Reserved.-->
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none' https://beaudu.com https://fonts.googleapis.com https://fonts.gstatic.com; img-src data: https://*; media-src https://sketchfab.com; child-src 'self' https://sketchfab.com https://fonts.googleapis.com  https://fonts.gstatic.com; script-src 'none'; object-src 'none'; form-action 'self'; base-uri 'self'">
-    <link rel="shortcut icon" href="https://beaudu.com/img/favicon.png">
-    <title>ᴇʀɪᴄʙᴇᴀᴜᴅᴜ</title>
-    <link href="https://beaudu.com/css/normalize.css" rel="stylesheet">
-    <link href="https://beaudu.com/css/spectre.min.css" rel="stylesheet">
-    <link href="https://beaudu.com/css/spectre-exp.min.css" rel="stylesheet">
-    <link href="https://beaudu.com/css/spectre-icons.min.css" rel="stylesheet">
-    <link href="https://beaudu.com/css/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|East+Sea+Dokdo|" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none' https://outlaweric.github.io/SpriteDraw https://fonts.googleapis.com https://fonts.gstatic.com; img-src data: https://*; child-src 'self' https://fonts.googleapis.com  https://fonts.gstatic.com; script-src 'unsafe-inline' https: ; object-src 'none'; form-action 'self'; base-uri 'self'">
+    <link rel="shortcut icon" href="https://outlaweric.github.io/SpriteDraw/img/favicon.png">
+    <title>Sprite Draw Challenge</title>
+    <link href="https://outlaweric.github.io/SpriteDraw/css/normalize.css" rel="stylesheet" >
+    <link href="https://outlaweric.github.io/SpriteDraw/css/spectre.min.css" rel="stylesheet" >
+    <link href="https://outlaweric.github.io/SpriteDraw/css/spectre-exp.min.css" rel="stylesheet" >
+    <link href="https://outlaweric.github.io/SpriteDraw/css/spectre-icons.min.css" rel="stylesheet" >
+    <link href="https://outlaweric.github.io/SpriteDraw/css/sprite.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|East+Sea+Dokdo|Press+Start+2P" rel="stylesheet">
+    <script src="https://outlaweric.github.io/SpriteDraw/js/sprite.min.js"></script>
+
   </head>
-  
-  <body class="bg-dark">
-    <div class="hero herofull hide-md">
-      <div class="hero-body">
-        <div class="container">
+  <body class="bg-dark" onload="main();">
+    <div class="container">
+      <a class="logofix" href="http://outlaweric.com/"><img src="https://outlaweric.github.io/SpriteDraw/img/logo.svg" alt="beaudu.com"></a>
+      <div class="columns">
+        <div class="column col-9 col-xl-12 col-mx-auto">
           <div class="columns">
-            <div class="column col-4 col-mx-auto l500"><img src="https://beaudu.com/img/logo.svg" alt="beaudu.com"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="hero heromobile show-md">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column col-4 col-mx-auto l300"><img src="https://beaudu.com/img/logo.svg" alt="beaudu.com"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-12 col-mx-auto">
-      <div class="container grid-md py-3">
-        <div class="columns">
-          <div class="column col-3 col-sm-12">
-            <img class="s-circle bioimg" src="https://beaudu.com/img/icon.png"/>
-          </div>
-          <div class="column col-9 col-sm-12">
-            <h1>Hey, I'm Eric.</h1>
-            <p>
-              I'm a Freelance Illustrator, Animator, and Character Concept Artist with over 6 years of experience.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-12 col-mx-auto">
-      <div class="container grid-md py-4">
-        <div class="columns col-gapless">
-          <div class="col-1 hide-sm"></div>
-          <div class="column col-7 col-sm-11 col-mx-auto">
-            <div class="columns">
-              <div class="column col-12">
-                <a href="mailto:eric@beaudu.com" class="btn btn-lg bss br column col-12 base esd mail">
-                  <div class="columns">
-                    <div class="column col-2"><img class="sml" src="https://beaudu.com/img/email.svg" alt="email"></div>
-                    <div class="column col-5"><p class="tl">eric@beaudu.com</p></div>
-                  </div>
-                </a>
-              </div>
-              <div class="column col-12">
-                <a href="https://beaudu.com/spritedraw" class="btn btn-lg bss br column col-12 base esd mail">
-                  <div class="columns">
-                    <div class="column col-2"><img class="sml" src="https://beaudu.com/img/invader.svg" alt="spritedraw"></div>
-                    <div class="column col-5"><p class="tl">SpriteDraw</p></div>
-                  </div>
-                </a>
-              </div>
+            <div class="column col-6 col-md-12">
+              <canvas id="SpriteGenerator">
+                404 your canvas had no fucks left to give.
+              </canvas>
             </div>
-          </div>
-          <div class="column col-4 col-sm-8 col-mx-auto">
-            <div class="columns">
-              <div class="column col-3 col-mx-auto">
-                <a href="https://twitter.com/0utlawEric" class="btn btn-lg bss base s-circle twtt">
-                  <div class="columns">
-                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/tw.svg" alt="twitter"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="column col-3 col-mx-auto">
-                <a href="https://www.instagram.com/0utlawEric/" class="btn btn-lg bss base s-circle inst">
-                  <div class="columns">
-                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/instagram.svg" alt="instagram"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="column col-3 col-mx-auto">
-                <a href="https://www.twitch.tv/outlaweric" class="btn btn-lg bss base s-circle twtc">
-                  <div class="columns">
-                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/twitch.svg" alt="twitch"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="column col-3 hide-sm"></div>
-            </div>
-            <div class="columns">
-              <div class="column col-3 col-mx-auto">
-                <a href="https://www.artstation.com/outlaweric" class="btn btn-lg bss base s-circle arts">
-                  <div class="columns">
-                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/artstation.svg" alt="artstation"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="column col-3 col-mx-auto">
-                <a href="https://outlaweric.newgrounds.com/" class="btn btn-lg bss base s-circle newg">
-                  <div class="columns">
-                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/ng.svg" alt="newgrounds"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="column col-3 col-mx-auto">
-                <a href="https://ko-fi.com/outlaweric" class="btn btn-lg bss base s-circle kofi">
-                  <div class="columns">
-                    <div class="column col-12"><img class="sml" src="https://beaudu.com/img/kofi.svg" alt="kofi"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="column col-3 hide-sm"></div>
+            <div class="column col-6 col-md-12">
+              <h1>Generate sprites. Draw what you see!</h1>
+              <div id="gui" class="col-10 col-sm-12 col-mx-auto"></div>
+              <p class="footnote">Remember to post what you drew with <a href="https://twitter.com/hashtag/SpriteDraw?src=hash">#SpriteDraw</a>!</p>
             </div>
           </div>
         </div>
-
-        <div class="columns">
-          <div class="column col-12 col-mx-auto">
-            <p class="tc esd">&copy; 2015-2021 ERIC BEAUDU</p>
-          </div>
-        </div>
-
       </div>
     </div>
-
   </body>
 </html>
