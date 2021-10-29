@@ -1,4 +1,4 @@
 ---
-layout: home
+layout: sprite
 permalink: /spritedraw
 ---
