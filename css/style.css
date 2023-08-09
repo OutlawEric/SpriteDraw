@@ -4,8 +4,8 @@
 }
 body{font-family: 'Roboto Mono'; color:#fff;}
 h2{font-family: 'East Sea Dokdo', cursive;}
-a, a:visited{color:#E81C4F;}
-a:hover{color:#E81C4F;text-decoration:underline;}
+a, a:visited{color:#E43B44;}
+a:hover{color:#E43B44;text-decoration:underline;}
 p {margin: 0;}
 .bg-dark{background-color: rgb(24,20,37)!important;}
 .btn{transition: none;}
@@ -19,11 +19,11 @@ p {margin: 0;}
   border: none;
   border-radius: 0;
 }
-.btn.navb.disabled,.btn.navc.disabled,.btn.active{color:#E81C4F;opacity:1;}
+.btn.navb.disabled,.btn.navc.disabled,.btn.active{color:#E43B44;opacity:1;}
 .btn.navb:focus{color:#FFF;opacity:1;}
 .btn.navb:hover{
   color: #fff;
-  background: #E81C4F;
+  background: #E43B44;
 }
 .btn.btn-lg.bss{
   height: auto;
