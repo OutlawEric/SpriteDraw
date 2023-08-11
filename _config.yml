@@ -22,8 +22,8 @@ title: outlaweric
 email: eric@beaudu.com
 description: >- # this means to ignore newlines until "baseurl:"
    Site of OutlawEric
-baseurl: "https://outlaweric.com/" # the subpath of your site, e.g. /blog
-url: "https://outlaweric.com/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://spritedraw.outlaweric.com/" # the subpath of your site, e.g. /blog
+url: "https://spritedraw.outlaweric.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
