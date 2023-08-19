@@ -1,9 +1,1 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
 js/sprite.js
-img/old_logo.svg
-css/old_style.css
-_layouts/old.html
